@@ -166,8 +166,8 @@ export default function Dashboard() {
           sx={{ width: "80%"}}
           rows={users}
           columns={columns}
-          pageSize={10}
-          rowsPerPageOptions={[10]}
+          pageSize={9}
+          rowsPerPageOptions={[9]}
         />
       </Box>    
     </Container>
