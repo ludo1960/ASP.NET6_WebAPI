@@ -154,7 +154,10 @@ export default function Dashboard() {
       <Box sx={{ width: '50%', display: 'flex', marginBottom: '20px' }}>
         {on_break_snapshot && (<Button style={styles.button} onClick={() => onButtonClickHandler("ON_BREAK")} variant="contained" color='secondary'>ON BREAK</Button>)}
         {on_call_snapshot && (<Button style={styles.button} onClick={() => onButtonClickHandler("ON_CALL")} variant="contained" color='primary'>ON CALL</Button>)}
-        {in_meeting_snapshot && (<Button style={styles.button} onClick={() => onButtonClickHandler("IN_MEETING")} variant="contained" color='error'>IN MEETING</Button>)}
+        {in_meeting_snapshot && (<Button style={styles.button} onClick={() => onButtonClickHandler("IN_MEETING")} variant="contained" color='error'>IN MEETING</Button>)} 
+         <Button style={styles.button} href="/login" variant="contained" color='secondary'>
+            Login
+         </Button>
       </Box> 
       <Box 
         sx={{ height: 500, width: "100%" }}
