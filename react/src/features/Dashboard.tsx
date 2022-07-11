@@ -157,7 +157,7 @@ export default function Dashboard() {
         {in_meeting_snapshot && (<Button style={styles.button} onClick={() => onButtonClickHandler("IN_MEETING")} variant="contained" color='error'>IN MEETING</Button>)}
       </Box> 
       <Box 
-        sx={{ height: 400, width: "100%" }}
+        sx={{ height: 500, width: "100%" }}
         justifyContent={{
          xs: "center"
         }}
@@ -166,8 +166,8 @@ export default function Dashboard() {
           sx={{ width: "80%"}}
           rows={users}
           columns={columns}
-          pageSize={5}
-          rowsPerPageOptions={[5]}
+          pageSize={10}
+          rowsPerPageOptions={[10]}
         />
       </Box>    
     </Container>
