@@ -30,6 +30,11 @@ const columns: GridColDef[] = [
       `${params.row.firstName || ''} ${params.row.lastName || ''}`,
   },
   {
+    field: 'username',
+    headerName: 'User name',
+    width: 150,
+  },
+  {
     field: 'status',
     headerName: 'Status',
     type: 'text',
